@@ -20,7 +20,14 @@ class WordCounter extends React.Component {
   {
     const map = new Map();
     const whitespacePattern = /\s+/;
-    const wordArray = this.state.input.trim().split(whitespacePattern);
+    const wordArray =
+      this.state.input.trim()
+                      .replaceAll(",", " ")
+                      .replaceAll(".", " ")
+                      .replaceAll(":", " ")
+                      .replaceAll("?", " ")
+                      .replaceAll("!", " ")
+                      .split(whitespacePattern);
     const len = wordArray.length;
 
     for(var i = 0; i < len; i++ )

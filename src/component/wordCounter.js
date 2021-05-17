@@ -55,6 +55,7 @@ class WordCounter extends React.Component {
   {
     return (
       <div className="app" >
+        Word Counter
         <div className="inputScreen">
         <InputScreen handleChange={this.handleChange} />
         </div>

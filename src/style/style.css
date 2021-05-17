@@ -1,13 +1,16 @@
-.input input{
-    width: 800px;
-    height: 300px;
+.input textarea,
+.app{
+    width:700px;
+}
+
+.input textarea{
+    height: 200px;
     border: 2px solid blue;
     color: #122;
     padding: 10px;
-    text-align: right;
+    text-align: left;
 }
 
 .app{
   margin: 0 auto;
-  width:800px;
 }

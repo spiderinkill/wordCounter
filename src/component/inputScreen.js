@@ -4,7 +4,7 @@ import '../style/style.css';
 const InputScreen =(props)=>{
   return (
     <div className='input' >
-      <input type='text' onChange= {props.handleChange}/>
+      <textarea onChange= {props.handleChange}/>
     </div>
   )
 }

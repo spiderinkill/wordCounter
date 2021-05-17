@@ -1,0 +1,13 @@
+.input input{
+    width: 800px;
+    height: 300px;
+    border: 2px solid blue;
+    color: #122;
+    padding: 10px;
+    text-align: right;
+}
+
+.app{
+  margin: 0 auto;
+  width:800px;
+}
